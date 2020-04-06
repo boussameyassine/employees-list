@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Employees';
+  ngFor="let item of filterData | filter:term"
 }
